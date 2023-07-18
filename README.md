@@ -15,7 +15,7 @@ Currently, URT analyses random numbers provided as binary values in an input fil
 
 1. Clone this repository
 2. Install ENT and Dieharder: `sudo apt install dieharder ent`
-3. (Optional) Clone and install TestU01:
+3. Optional: Clone and install TestU01 (alternatively, pre-built libraries are in `lib/`, compiled and tested for X86-64 using Ubuntu 22.10):
 ```bash
 git submodule init
 git submodule update
