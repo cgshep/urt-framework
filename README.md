@@ -1,8 +1,8 @@
 # The Unified Randomness Testing (URT) project
 
-This project attempts to unify the various statistical randomness testing frameworks into one place.
+This project attempts to unify the numerous statistical randomness testing libraries into a single framework.
 
-Currently, URT analyses random numbers from an external source, which are provided as binary values in an input file. The following statistical batteries are supported:
+Currently, URT analyses random numbers provided as binary values in an input file. The following statistical batteries are supported:
 
 + [TestU01](http://simul.iro.umontreal.ca/testu01/tu01.html)
   - Rabbit
@@ -13,9 +13,9 @@ Currently, URT analyses random numbers from an external source, which are provid
 
 ## Usage
 
-1. Clone this repo.
+1. Clone this repository
 2. Install ENT and Dieharder: `sudo apt install dieharder ent`
-3. Clone and install TestU01:
+3. (Optional) Clone and install TestU01:
 ```bash
 git submodule init
 git submodule update
@@ -30,3 +30,13 @@ make -j4
 ## Credit and copyright
 
 Carlton Shepherd (c) 2023. All rights reserved.
+
+```bibtex
+@software{shepherd:urt,
+      title={The Unified Randomness Testing (URT) framework},
+      version={0.1},
+      author={Carlton Shepherd},
+      year={2023},
+      url={https://github.com/cgshep/urt-framework}
+}
+```
