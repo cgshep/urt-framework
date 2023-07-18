@@ -25,7 +25,8 @@ make -j4
 (sudo) make install 
 ```
 4. Compile the URT TestU01 program from the repo root using `make`
-5. Run URT with your file of random numbers using `./run.sh testfile.bin` Results are put to stdout.
+5. Run URT with your file of random numbers using `chmod +x run.sh ; ./run.sh <your file>` Results are put to STDOUT
+6. Optional: Try the test file using `./run.sh testfile.bin`, comprising 1M bytes from `/dev/random`
 
 ## Credit
 
