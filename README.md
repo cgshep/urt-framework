@@ -25,11 +25,9 @@ make -j4
 (sudo) make install 
 ```
 4. Compile the URT TestU01 program from the repo root using `make`
-5. Run URT with your file, e.g. `./run.sh testfile.bin`
+5. Run URT with your file of random numbers using `./run.sh testfile.bin` Results are put to stdout.
 
-## Credit and Copyright
-
-Carlton Shepherd (c) 2023. All rights reserved.
+## Credit
 
 ```bibtex
 @software{shepherd:urt,
