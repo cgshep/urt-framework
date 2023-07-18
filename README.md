@@ -11,7 +11,7 @@ Currently, URT analyses random numbers provided as binary values in an input fil
 + [ENT](https://manpages.ubuntu.com/manpages/trusty/man1/ent.1.html)
 + [Dieharder](https://webhome.phy.duke.edu/~rgb/General/dieharder.php)
 
-## Usage
+## Installation and Usage
 
 1. Clone this repository
 2. Install ENT and Dieharder: `sudo apt install dieharder ent`
@@ -27,7 +27,7 @@ make -j4
 4. Compile the URT TestU01 program from the repo root using `make`
 5. Run URT with your file, e.g. `./run.sh testfile.bin`
 
-## Credit and copyright
+## Credit and Copyright
 
 Carlton Shepherd (c) 2023. All rights reserved.
 
